@@ -1,0 +1,15 @@
+@media (max-width: 1124px) {
+    .services {
+        &__items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__thumbex {
+            &:last-child {
+                margin: 60 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.contacts {
+    background: $bg-color;
+    padding: 60px 0;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 0px 10px 3px rgba(0, 141, 210, 1);
+        background: $custom-black;
+        border-radius: 10px;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+
+        a {
+            text-decoration: none;
+            color: $main-color;
+            font-size: 40px;
+            transition: 0.6s all;
+
+            &:hover {
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+                -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    &__phone {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 700;
+            color: $main-color;
+            transition: 0.6s all;
+
+            &:hover {
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+                -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    button {
+        margin: 60px 0;
+    }
+}

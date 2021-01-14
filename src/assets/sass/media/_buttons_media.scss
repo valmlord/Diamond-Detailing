@@ -1,0 +1,12 @@
+@media (max-width: 374px) {
+    .btn {
+        &_main {
+            margin: 60px 30px 90px 30px;
+            display: block;
+        }
+
+        &_submit {
+            width: 270px;
+        }
+    }
+}

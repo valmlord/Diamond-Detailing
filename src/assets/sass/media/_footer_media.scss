@@ -1,0 +1,123 @@
+ @media (max-width: 1439px) {
+     .footer {
+         &__logo {
+             img {
+                 max-width: 200px;
+             }
+         }
+     }
+ }
+
+ @media (max-width: 1199px) {
+     .footer {
+         padding: 30px 0;
+
+         &__logo {
+             img {
+                 max-width: 150px;
+                 display: block;
+                 margin: 0 auto;
+             }
+         }
+
+         &__contacts {
+             a {
+                 font-size: 14px;
+             }
+         }
+
+         ul {
+             margin-left: 15px;
+
+             a {
+                 font-size: 12px;
+             }
+
+         }
+     }
+ }
+
+
+ @media (max-width: 1079px) {
+     .footer {
+         .container {
+             display: flex;
+             flex-direction: column;
+         }
+
+         &__logo {
+             img {
+                 max-width: 300px;
+                 display: block;
+                 margin: 0 auto;
+             }
+         }
+
+         &__wrapper {
+             justify-content: space-between;
+         }
+
+         &__clients {
+             max-width: 20%;
+         }
+
+         &__contacts {
+             a {
+                 font-size: 14px;
+             }
+         }
+
+         ul {
+             margin-left: 15px;
+
+             a {
+                 font-size: 12px;
+             }
+
+         }
+     }
+ }
+
+ @media (max-width: 767px) {
+     .footer {
+
+         &__packages {
+             min-width: 50%;
+         }
+
+         &__services {
+             min-width: 50%;
+         }
+
+         &__clients {
+             min-width: 50%;
+         }
+
+         &__contacts {
+             min-width: 50%;
+
+             div {
+                 text-align: left;
+
+                 span {
+                     font-size: 12px;
+                 }
+             }
+         }
+
+         &__wrapper {
+             display: flex;
+             flex-direction: column;
+
+         }
+
+         .right {
+             text-align: left;
+         }
+
+         h3 {
+             padding: 15px 0;
+         }
+
+     }
+ }

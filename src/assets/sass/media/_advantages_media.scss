@@ -1,0 +1,44 @@
+@media (max-width: 1300px) {
+    .advantages {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .advantages {
+        &__item {
+            width: 41%;
+        }
+
+        &__descr {
+            font-size: 12px;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .advantages {
+        &__item {
+            width: 100%;
+        }
+
+        &__descr {
+            max-width: 50%;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .advantages {
+        &__title {
+            font-size: 16px;
+        }
+
+        &__descr {
+            max-width: 80%;
+        }
+    }
+}

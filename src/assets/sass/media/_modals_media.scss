@@ -1,0 +1,19 @@
+@media (max-width: 424px) {
+    .modal {
+        &__content {
+            width: 270px;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+
+    .consult,
+    .service,
+    .promo,
+    .thanks {
+        position: absolute;
+        width: 250px;
+        padding: 40px 5px;
+    }
+}

@@ -1,0 +1,125 @@
+.footer {
+    padding: 60px 0;
+    background-color: $custom-black;
+    color: $custom-grey;
+    box-shadow: 0px 0px 10px 3px rgba(0, 141, 210, 1);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__logo {
+        img {
+            width: 300px;
+        }
+    }
+
+    &__connection {
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+        margin: 30px 0;
+
+        a {
+            font-size: 30px;
+            text-decoration: none;
+            color: $main-color;
+            transition: 0.3s all;
+
+            &:hover {
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+                -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+
+
+    &__copyright {
+        font-size: 12px;
+        text-align: right;
+        padding-top: 10px;
+    }
+
+    &__madeby {
+        font-size: 12px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    &__contacts {
+        a {
+            text-decoration: none;
+            color: $main-color;
+            transition: 0.3s all;
+            font-weight: 500;
+            line-height: 1.5;
+
+            &:hover {
+                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+                -webkit-text-fill-color: rgba(0, 0, 0, 0.1);
+            }
+
+        }
+
+        div {
+            text-align: right;
+            margin-top: 5px;
+
+            address {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                color: $main-color;
+                line-height: 2;
+            }
+        }
+
+        .right {
+            text-align: right;
+        }
+
+    }
+
+    li {
+        list-style-image: url('../icons/packages/list_icon.png');
+        padding: 5px 0;
+    }
+
+    ul {
+        margin-left: 15px;
+
+        a {
+            text-decoration: none;
+            color: $custom-grey;
+            transition: 0.3s all;
+            font-size: 14px;
+
+            &:hover {
+                color: $main-color;
+            }
+        }
+
+    }
+
+    h3 {
+        color: $main-color;
+        padding-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+    }
+}

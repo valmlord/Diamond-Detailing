@@ -1,0 +1,37 @@
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.animated {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+// PACKAGES CONTENT FADE ANIMATION
+
+.faded {
+    animation-name: faded;
+    animation-duration: 3s;
+}
+
+@keyframes faded {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

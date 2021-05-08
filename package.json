@@ -1,10 +1,11 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "description": "",
+  "description": "diamond-detailing official web page",
   "main": "index.js",
+  "homepage": "https://valmlord.github.io/diamonddetailing",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "valmlord",
   "license": "ISC",
